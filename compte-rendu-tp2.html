@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<title>Compte-rendu TP2</title>
+	<link rel="stylesheet" href="compte-rendu-tp2.css">
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        /*h1 {
+            font-size: 26px;
+        }
+        h2 {
+            font-size: 22px;
+            color: lightgray;
+        }*/
+        h3 {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="centered">TP2 de Programmation Web</h1>
+    <div class="right">FELIX MIELCAREK</div>
+    <div>ESIEE INFO 1</div>
+	
+	<h2 style="color:red">Exercice 1 : Style de base</h2>
+
+	<ol class="roman-ol">
+	<li><code>&lt;h2 style="color:red"&gt;</code></li>
+	<li><code>
+        body {
+            font-family: sans-serif;
+        }
+    </code></li>
+    <li><code>h1 {
+        font-size: 26px;
+    }<br/>
+    h2 {
+        font-size: 22px;
+    }<br/>
+    h3 {
+        font-size: 18px;
+    }</code></li>
+
+    <li><code>h2 {
+        font-size: 22px;
+        color: lightgray;
+    }</code></li>
+
+    <li><code>.centered {
+        text-align: center;
+    }</code></li>
+
+    <li><code>.right {
+        text-align: right;
+    }</code></li>
+
+    <li><a id="e1q7-link" href=" http://forax.github.io/course/progweb/">Survolez-moi</a></li>
+
+    </ol>
+	
+    <h2>Exercice 2 - Style de liste et de table</h2>
+	<ol class="roman-ol">
+	<li><code>/*<br>h1 {
+        font-size: 26px;
+    } <br>
+    h2 {
+        font-size: 22px;
+        color: lightgray;
+    }<br>*/</code></li>
+
+    <li><code>.roman-ol {
+        list-style: upper-roman;
+    }</code></li>
+
+    <li>
+        <table id="e2q4-table">
+            <tr>
+                <th>Rang</th>
+                <th>Titre</th>
+                <th>Recettes</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Barbie</td>
+                <td>$636,236,401</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>The Super Mario Bros. Movie</td>
+                <td>$574,934,330 </td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Spider-Man: Across the Spider-Verse</td>
+                <td>$381,593,754 </td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Guardians of the Galaxy Vol. 3</td>
+                <td>$358,995,815 </td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>Oppenheimer</td>
+                <td>$329,862,540 </td>
+            </tr>
+        </table>
+    </li>
+
+    <li><code>#e2q4-table {
+        width: 100%;
+    }</code></li>
+
+    <li><code>#e2q4-table th {
+        text-align: center;
+        font-variant: small-caps;
+    }</code></li>
+
+    <li><code>#e2q4-table th,#e2q4-table td {
+        padding: 10px;
+    }</code></li>
+
+    <li><code>#e2q4-table td:nth-child(3) {
+        text-align: center;
+    }</code></li>
+
+    <li><code>#e2q4-table tr:nth-child(even) {
+        background-color: lightblue;
+    }</code></li>
+
+    <li><code>#e2q4-table tr:hover {
+        background-color: #26182C;
+        color:white;
+    }</code></li>
+	</ol>
+
+    <h2>Exercice 3 - Vignettes</h2>
+
+    <ol>
+    <li><a href="exo3.html">Lien vers le résultat de l'exercice 3</a></li>
+
+    <li><code>div img {
+        width: 250px;
+    }</code></li>
+
+    <li><code>img {
+        float: left;
+    }</code></li>
+
+    <li>Lorsqu'on diminue la taille de la fenêtre et que les images ne tiennent plus sur un ligne, elles sont affichées sur la ligne du dessous.</li>
+
+    <li><code>img {
+        float: right;
+    }</code></li>
+</ol>
+</body>
+</html>

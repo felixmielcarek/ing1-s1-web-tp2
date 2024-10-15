@@ -1,0 +1,76 @@
+.term-io {
+	font-family: monospace;
+	background: lightgray;
+}
+
+.centered {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+#e1q7-link {
+    font-weight: bold;
+}
+
+#e1q7-link:hover {
+    color: teal;
+}
+
+#e2q4-table {
+    width: 100%;
+}
+
+#e2q4-table th {
+    text-align: center;
+    font-variant: small-caps;
+}
+
+#e2q4-table th,#e2q4-table td {
+    padding: 10px;
+}
+
+#e2q4-table td:nth-child(3) {
+    text-align: center;
+}
+
+#e2q4-table tr:nth-child(even) {
+    background-color: lightblue;
+}
+
+#e2q4-table tr:hover {
+    background-color: #26182C;
+    color:white;
+}
+
+.roman-ol {
+    list-style: upper-roman;
+}
+
+h1 {
+    font-size: 26px;
+}
+h2 {
+    font-size: 22px;
+    color: lightgray;
+}
+
+body {
+	padding-inline: 20%;
+	padding-block: 5em;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 5px;
+}
+
+li {
+    padding-bottom: 2em;
+}
