@@ -155,6 +155,43 @@
     <li><code>img {
         float: right;
     }</code></li>
-</ol>
+
+    <li><code>div div {
+		color: white;
+		background-color: black;
+		text-align: center;
+		padding-block: 1em;
+    }</code></li>
+
+	<li><code>div:has(img) {
+		margin-inline: 1em;
+	}</code></li>
+
+	<li><code>img { 
+		border: solid #aaaaaa 1px;
+	}</code></li>
+
+	<li><code>img:hover {
+		opacity: 0.5;
+	}</code></li>
+
+	<li><code>div:has(img) {
+		display: inline-block;
+	}<br>
+	div div { position: relative;
+		top: -5px;
+	}</code></li>
+	
+	</ol>
+	<h2>Exercice 4 - Barre de menu</h2>
+	<ol>
+		<li><code>ul { position: fixed; }</code></li>
+		<li><code>li { list-style-type: none; }</code></li>
+		<li><code>li { font-weight: bold; font-family: "Courrier", sans-serif; }</code></li>
+		<li><code>li { float: left; }</code></li>
+		<li><code>li { min-width: 120px; margin-right: 10px; }</code></li>
+		<li><code>ul { background-color: tomato; color: yellow; }</code></li>
+		<li><code>ul { height: 48px; width: 100%; }</code></li>
+	</ol>
 </body>
 </html>
